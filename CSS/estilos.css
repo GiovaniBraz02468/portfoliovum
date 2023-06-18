@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: texto;
+    src: url(FNT/optima-bold.ttf);
+}
+body{
+    padding-top: 50px;
+}
+
+/*
+Cor da letra para branco e alinhamento no centro
+e retirar o estilo de link
+como visto no site deixa o menu fico com as formatações abaixo
+*/
+div.menu {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(46, 157, 253);
+    border-radius: 20px;
+    margin-top: 6px;
+}
+
+/*Efeito de mudar a cor ao passar o mouse em cima do link*/
+a.menulink:hover{
+    color: rgb(230, 57, 72);
+    text-shadow: 10px 1px 10px rgb(235, 53, 53);
+}
+
+a.menulink {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+main.principal{
+    background-color: rgb(46, 157, 253);
+    border-radius: 20px;
+
+}
+
+h2.titulo{
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer.rodape{
+    background-color: rgb(46, 157, 253);
+    border-radius: 20px;
+    margin-top: -21px;
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    width: 100%;
+}
+
+h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+img.logo{
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+p.cc{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 13pt;
+}
+
+p.cc:hover{
+    color: white;
+    font-size: 20pt;
+
+}
+
+img.eu{
+    width: 25%;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: block;
+    float: right;
+    margin-right: 1%;
+    margin-left: 10px;
+}
+
+p.eutexto{
+    text-indent: 1em;
+    font-size: 20pt;
+    margin-top: -8px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.eusou{
+    width: 100%;
+    height: 200%;
+}
+
+nav.lista{
+    font-size: 20pt;
+}
+
+p.xp {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 13pt;
+}
+
+p.xp:hover{
+    color: white;
+    font-size: 20pt;
+}
+
+img.zap{
+    width: 8%;
+    display: block;
+    margin: auto;
+}
+
+.zap:hover{
+    width: 12%;
+}
+
+div.oo{
+    display: block;
+    text-align: center;
+}
+
+p.contta{
+    text-align: center;
+}
+
+a.emma:hover{
+    font-size: 30px;
+}
+
+img.curri{
+    width: 10%;
+    margin-top: 25px;
+}
+
+img.curri:hover{
+    width: 15%;
+
+}
+
+div.curiculo{
+    text-align: center;
+}
